@@ -15,7 +15,7 @@ public class Main {
         tomcat.getConnector();
 
         Context ctx = tomcat.addWebapp("", 
-            new File("webapp").getAbsolutePath());
+            new File("src/main/webapp").getAbsolutePath());
 
         WebResourceRoot resources = new StandardRoot(ctx);
         resources.addPreResources(new DirResourceSet(
