@@ -1,1 +1,1 @@
-web: java -cp target/QuizApp-jar-with-dependencies.jar Main
+web: java -jar target/QuizApp.jar
